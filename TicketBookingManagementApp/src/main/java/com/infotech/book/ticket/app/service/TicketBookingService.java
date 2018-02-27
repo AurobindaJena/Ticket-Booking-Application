@@ -7,6 +7,13 @@ import org.springframework.stereotype.Service;
 import com.infotech.book.ticket.app.dao.TicketBookingDao;
 import com.infotech.book.ticket.app.entities.Ticket;
 
+/*
+ * this is the service class
+ * it is used to give service to the client
+ * i.e. this class fetches all the information given by the client request
+ * and it saves all the information into the database for further usage of the client
+ * this class does the above operation by the help of dao class which implements CrudRepository interface
+ */
 @Service
 public class TicketBookingService {
 

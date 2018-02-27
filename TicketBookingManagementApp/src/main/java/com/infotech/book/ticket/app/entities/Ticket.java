@@ -8,7 +8,13 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+/*
+ * this is the entity class
+ * it is used to create the table in the database
+ * by using the class name as table name
+ * and the variable name as column name
+ * these are done automatically by using the annotation
+ */
 @Entity
 @Table(name = "ticket")
 public class Ticket {
