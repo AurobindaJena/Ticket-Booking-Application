@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.infotech.book.ticket.app.entities.Ticket;
 import com.infotech.book.ticket.app.service.TicketBookingService;
+
 /*
  * this is the controller class
  * it is used to control all the request given by the user
